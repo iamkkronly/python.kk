@@ -1,4 +1,4 @@
-name: Run originalbot1.py
+name: Run main.py
 
 on:  
   push:  
@@ -24,4 +24,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  
 
       - name: Run Python Script  
-        run: python originalbot1.py
+        run: python main.py
